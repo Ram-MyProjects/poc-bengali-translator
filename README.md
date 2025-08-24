@@ -1,5 +1,9 @@
 # Bengali to English Transliterator
 
+[![CI/CD Pipeline](https://github.com/Ram-MyProjects/poc-bengali-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/Ram-MyProjects/poc-bengali-translator/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 A comprehensive Python tool for transliterating Bengali text to English while preserving Bengali pronunciation patterns. This tool can process PDF files containing Bengali text and generate transliterated output in PDF format.
 
 ## Features
@@ -185,16 +189,35 @@ The tool comes with example files in the `output/` directory:
 
 ## Contributing
 
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
+### Quick Start for Contributors
+
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/poc-bengali-translator.git`
+3. Create a feature branch: `git checkout -b feature/your-feature`
+4. Make your changes and add tests
+5. Run tests: `python -m unittest discover tests`
+6. Submit a pull request
 
 ## License
 
-This project is open source. Please check the license file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
-If you encounter any issues or have questions, please create an issue in the repository.
+If you encounter any issues or have questions:
+- 🐛 [Report a bug](https://github.com/Ram-MyProjects/poc-bengali-translator/issues/new?template=bug_report.yml)
+- 💡 [Request a feature](https://github.com/Ram-MyProjects/poc-bengali-translator/issues/new?template=feature_request.yml)
+- 📖 Check the [documentation](README.md)
+- 💬 Start a [discussion](https://github.com/Ram-MyProjects/poc-bengali-translator/discussions)
+
+## Acknowledgments
+
+- Tesseract OCR team for excellent Bengali OCR support
+- Bengali language community for feedback and testing
+- Open source contributors who make projects like this possible
+
+---
+
+⭐ If you find this project useful, please consider giving it a star on GitHub!
